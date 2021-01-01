@@ -1,23 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <defs>
-    <filter id="deepin-terminal-a" width="123.5%" height="125.7%" x="-11.7%" y="-12.9%" filterUnits="objectBoundingBox">
-      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
-      <feMerge>
-        <feMergeNode in="shadowMatrixOuter1"/>
-        <feMergeNode in="SourceGraphic"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="deepin-terminal.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata36">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     id="namedview34"
+     showgrid="false"
+     inkscape:zoom="3.2265625"
+     inkscape:cx="128.46489"
+     inkscape:cy="128"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg32" />
+  <defs
+     id="defs22">
+    <filter
+       id="deepin-terminal-a"
+       width="123.5%"
+       height="125.7%"
+       x="-11.7%"
+       y="-12.9%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="4"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset2" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5"
+         id="feGaussianBlur4" />
+      <feComposite
+         in="shadowBlurOuter1"
+         in2="SourceAlpha"
+         operator="out"
+         result="shadowBlurOuter1"
+         id="feComposite6" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         id="feColorMatrix8" />
+      <feMerge
+         id="feMerge14">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode10" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode12" />
       </feMerge>
     </filter>
-    <radialGradient id="deepin-terminal-b" cx="50%" cy="0%" r="100%" fx="50%" fy="0%" gradientTransform="matrix(0 1 -.91304 0 .5 -.5)">
-      <stop offset="0%" stop-color="#FF774D"/>
-      <stop offset="100%" stop-color="#BA0E55"/>
-    </radialGradient>
   </defs>
-  <g fill="none" fill-rule="evenodd" filter="url(#deepin-terminal-a)" transform="translate(13 23)">
-    <rect width="230" height="210" fill="url(#deepin-terminal-b)" rx="32"/>
-    <path fill="#FFF0F0" fill-rule="nonzero" d="M73.3562063,72.845991 L33.9767738,95.8173266 C31.1144624,97.4870083 30.1476449,101.160915 31.8173266,104.023226 C33.4870083,106.885538 37.1609147,107.852355 40.0232262,106.182673 L88.0232262,78.1826734 C91.9922579,75.8674049 91.9922579,70.1325951 88.0232262,67.8173266 L40.0232262,39.8173266 C37.1609147,38.1476449 33.4870083,39.1144624 31.8173266,41.9767738 C30.1476449,44.8390853 31.1144624,48.5129917 33.9767738,50.1826734 L73.3562063,72.845991 Z"/>
-    <path fill="#FFF0F0" d="M135.545455,129 C138.557917,129 142,125.865993 142,122 C142,118.134007 138.557917,115 135.545455,115 L82.4545455,115 C79.4420832,115 76,118.134007 76,122 C76,125.865993 79.4420832,129 82.4545455,129 L135.545455,129 Z"/>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     filter="url(#deepin-terminal-a)"
+     transform="translate(13 23)"
+     id="g30">
+    <rect
+       width="230"
+       height="210"
+       fill="url(#deepin-terminal-b)"
+       rx="32"
+       id="rect24"
+       style="fill:#ff5f4d;fill-opacity:1" />
+    <path
+       fill="#FFF0F0"
+       fill-rule="nonzero"
+       d="M73.3562063,72.845991 L33.9767738,95.8173266 C31.1144624,97.4870083 30.1476449,101.160915 31.8173266,104.023226 C33.4870083,106.885538 37.1609147,107.852355 40.0232262,106.182673 L88.0232262,78.1826734 C91.9922579,75.8674049 91.9922579,70.1325951 88.0232262,67.8173266 L40.0232262,39.8173266 C37.1609147,38.1476449 33.4870083,39.1144624 31.8173266,41.9767738 C30.1476449,44.8390853 31.1144624,48.5129917 33.9767738,50.1826734 L73.3562063,72.845991 Z"
+       id="path26" />
+    <path
+       fill="#FFF0F0"
+       d="M135.545455,129 C138.557917,129 142,125.865993 142,122 C142,118.134007 138.557917,115 135.545455,115 L82.4545455,115 C79.4420832,115 76,118.134007 76,122 C76,125.865993 79.4420832,129 82.4545455,129 L135.545455,129 Z"
+       id="path28" />
   </g>
 </svg>
