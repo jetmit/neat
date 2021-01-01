@@ -1,52 +1,225 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
-  <defs>
-    <filter id="folder-96px-a" width="129.3%" height="133.8%" x="-14.6%" y="-16.9%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
-      <feMerge>
-        <feMergeNode in="shadowMatrixOuter1"/>
-        <feMergeNode in="SourceGraphic"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="96"
+   height="96"
+   viewBox="0 0 96 96"
+   version="1.1"
+   id="svg69"
+   sodipodi:docname="folder.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata73">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     id="namedview71"
+     showgrid="false"
+     inkscape:zoom="8.6041667"
+     inkscape:cx="48.174334"
+     inkscape:cy="48"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg69" />
+  <defs
+     id="defs48">
+    <filter
+       id="folder-96px-a"
+       width="129.3%"
+       height="133.8%"
+       x="-14.6%"
+       y="-16.9%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset2" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur4" />
+      <feComposite
+         in="shadowBlurOuter1"
+         in2="SourceAlpha"
+         operator="out"
+         result="shadowBlurOuter1"
+         id="feComposite6" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         id="feColorMatrix8" />
+      <feMerge
+         id="feMerge14">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode10" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode12" />
       </feMerge>
     </filter>
-    <linearGradient id="folder-96px-c" x1="50%" x2="50%" y1="0%" y2="37.968%">
-      <stop offset="0%" stop-color="#00B8FF"/>
-      <stop offset="100%" stop-color="#2E5DFF"/>
+    <path
+       id="folder-96px-b"
+       d="M46,4.5 L46,4.5 C47.2162027,7.23645617 49.9298769,9 52.9244289,9 L71.6576577,9 C77.3695756,9 82,13.6304244 82,19.3423423 L82,60.6576577 C82,66.3695756 77.3695756,71 71.6576577,71 L10.3423423,71 C4.63042439,71 -4.37094128e-14,66.3695756 -4.4408921e-14,60.6576577 L-4.26325641e-14,10.3423423 C-4.33320723e-14,4.63042439 4.63042439,-2.38197334e-14 10.3423423,-2.48689958e-14 L39.0755711,-2.7533531e-14 C42.0701231,-2.80836213e-14 44.7837973,1.76354383 46,4.5 Z" />
+    <linearGradient
+       id="folder-96px-g"
+       x1="50%"
+       x2="50%"
+       y1="0%"
+       y2="11.796%">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         id="stop23" />
+      <stop
+         offset="100%"
+         stop-color="#CEF5FF"
+         id="stop25" />
     </linearGradient>
-    <path id="folder-96px-b" d="M46,4.5 L46,4.5 C47.2162027,7.23645617 49.9298769,9 52.9244289,9 L71.6576577,9 C77.3695756,9 82,13.6304244 82,19.3423423 L82,60.6576577 C82,66.3695756 77.3695756,71 71.6576577,71 L10.3423423,71 C4.63042439,71 -4.37094128e-14,66.3695756 -4.4408921e-14,60.6576577 L-4.26325641e-14,10.3423423 C-4.33320723e-14,4.63042439 4.63042439,-2.38197334e-14 10.3423423,-2.48689958e-14 L39.0755711,-2.7533531e-14 C42.0701231,-2.80836213e-14 44.7837973,1.76354383 46,4.5 Z"/>
-    <linearGradient id="folder-96px-g" x1="50%" x2="50%" y1="0%" y2="11.796%">
-      <stop offset="0%" stop-color="#FFF"/>
-      <stop offset="100%" stop-color="#CEF5FF"/>
-    </linearGradient>
-    <rect id="folder-96px-f" width="74" height="31" x="4" y="12" rx="6.649"/>
-    <filter id="folder-96px-e" width="108.1%" height="119.4%" x="-4.1%" y="-9.7%" filterUnits="objectBoundingBox">
-      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    <rect
+       id="folder-96px-f"
+       width="74"
+       height="31"
+       x="4"
+       y="12"
+       rx="6.649" />
+    <filter
+       id="folder-96px-e"
+       width="108.1%"
+       height="119.4%"
+       x="-4.1%"
+       y="-9.7%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset29" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="1"
+         id="feGaussianBlur31" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         id="feColorMatrix33" />
     </filter>
-    <filter id="folder-96px-h" width="106.8%" height="116.1%" x="-3.4%" y="-8.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    <filter
+       id="folder-96px-h"
+       width="106.8%"
+       height="116.1%"
+       x="-3.4%"
+       y="-8.1%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="1"
+         in="SourceAlpha"
+         result="shadowOffsetInner1"
+         id="feOffset36" />
+      <feComposite
+         in="shadowOffsetInner1"
+         in2="SourceAlpha"
+         k2="-1"
+         k3="1"
+         operator="arithmetic"
+         result="shadowInnerInner1"
+         id="feComposite38" />
+      <feColorMatrix
+         in="shadowInnerInner1"
+         values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"
+         id="feColorMatrix40" />
     </filter>
-    <radialGradient id="folder-96px-i" cx="50%" cy="0%" r="117.588%" fx="50%" fy="0%" gradientTransform="matrix(.06172 .9956 -.65551 .09375 .47 -.498)">
-      <stop offset="0%" stop-color="#48D5FF"/>
-      <stop offset="100%" stop-color="#0083F6"/>
+    <radialGradient
+       id="folder-96px-i"
+       cx="50%"
+       cy="0%"
+       r="117.588%"
+       fx="50%"
+       fy="0%"
+       gradientTransform="matrix(.06172 .9956 -.65551 .09375 .47 -.498)">
+      <stop
+         offset="0%"
+         stop-color="#48D5FF"
+         id="stop43" />
+      <stop
+         offset="100%"
+         stop-color="#0083F6"
+         id="stop45" />
     </radialGradient>
   </defs>
-  <g fill="none" fill-rule="evenodd" filter="url(#folder-96px-a)" transform="translate(7 18)">
-    <mask id="folder-96px-d" fill="#fff">
-      <use xlink:href="#folder-96px-b"/>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     filter="url(#folder-96px-a)"
+     transform="translate(7 18)"
+     id="g67">
+    <mask
+       id="folder-96px-d"
+       fill="#fff">
+      <use
+         xlink:href="#folder-96px-b"
+         id="use50" />
     </mask>
-    <use fill="url(#folder-96px-c)" xlink:href="#folder-96px-b"/>
-    <g mask="url(#folder-96px-d)">
-      <use fill="#000" filter="url(#folder-96px-e)" xlink:href="#folder-96px-f"/>
-      <use fill="url(#folder-96px-g)" xlink:href="#folder-96px-f"/>
-      <use fill="#000" filter="url(#folder-96px-h)" xlink:href="#folder-96px-f"/>
+    <use
+       fill="url(#folder-96px-c)"
+       xlink:href="#folder-96px-b"
+       id="use53"
+       style="fill:#00b8ff;fill-opacity:1" />
+    <g
+       mask="url(#folder-96px-d)"
+       id="g61">
+      <use
+         fill="#000"
+         filter="url(#folder-96px-e)"
+         xlink:href="#folder-96px-f"
+         id="use55" />
+      <use
+         fill="url(#folder-96px-g)"
+         xlink:href="#folder-96px-f"
+         id="use57" />
+      <use
+         fill="#000"
+         filter="url(#folder-96px-h)"
+         xlink:href="#folder-96px-f"
+         id="use59" />
     </g>
-    <g fill="url(#folder-96px-i)" mask="url(#folder-96px-d)">
-      <path d="M0,0 L82,0 L82,43.647241 C82,49.3591589 77.3695756,53.9895833 71.6576577,53.9895833 L10.3423423,53.9895833 C4.63042439,53.9895833 -1.07684864e-15,49.3591589 -1.77635684e-15,43.647241 L0,0 Z" transform="translate(0 17.01)"/>
+    <g
+       fill="url(#folder-96px-i)"
+       mask="url(#folder-96px-d)"
+       id="g65">
+      <path
+         d="M0,0 L82,0 L82,43.647241 C82,49.3591589 77.3695756,53.9895833 71.6576577,53.9895833 L10.3423423,53.9895833 C4.63042439,53.9895833 -1.07684864e-15,49.3591589 -1.77635684e-15,43.647241 L0,0 Z"
+         transform="translate(0 17.01)"
+         id="path63"
+         style="fill-rule:evenodd;fill:#00b8ff;fill-opacity:1" />
     </g>
   </g>
 </svg>
